@@ -4,71 +4,117 @@
     box-sizing: border-box;
 }
 
+:root {
+    --color-blue: #255EE9;
+}
+
 .debug{
     border: 1px solid rgb(0, 0, 0);
 }
 
+.bg-white{
+    background-color: white;
+}
 
+.first-section{
+    background-image: url(../img/jumbo.png);
+    height: 530px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.center-items{
+    align-items: center;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-between{
+    justify-content: space-between;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20;
+    align-items: center;
+}
+
+ul{
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    padding: 10px 13px;
+    border: none;
+    cursor: pointer;
+}
 
 .bg-blue{
-    background-color: rgb(107, 107, 247);
+    background-color: var(--color-blue);
 }
 
-.flex-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+.cl-white{
+    color: white;
 }
 
-.first-flex {
-    display: flex;
-    justify-content: center;
+.cl-black{
+    color: black;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
+.container{
+    max-width: 1450px;
     width: 80%;
+    margin: 0 auto;
+}
+
+.max-width{
+    max-width: 1450px;
 }
 
 .wrapper{
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
 }
 
-.inside-wrapper{
-    width: 80%;
+.padding-150r{
+    padding-right: 150px;
 }
 
-.image-section{
+.padding-150l{
+    padding-left: 150px;
+}
+
+
+.flex-end{
+    justify-content: flex-end;
+}
+
+.dis-flex{
     display: flex;
-    width: 100%;
-}
-
-.container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.image{
-    width: 70%;
+    flex-wrap: wrap;
 }
 
 .text{
     width: 30%;
 }
 
-.max-width{
-    width: 100%;
+.image, .flexgrow{
+    flex-grow: 1;
 }
 
-footer{
-    background-color: grey;
+.buttons{
+    padding: 5px 20px;
+    border-radius: 13px;
 }
 
 .footer-top{
-    border-bottom: 1px solid rgb(255, 255, 255);
-}
-
-.footer-top, .footer-bottom{
-    width: 80%;
+    border-bottom: 2px solid red;
 }

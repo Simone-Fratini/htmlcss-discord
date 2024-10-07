@@ -1,62 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="style/style.css">
 </head>
+
 <body>
 
-    <div>
-        <div class="bg-blue debug flex-container">
-            <header class="debug first-flex">
-                <div class="menu">nav</div>
-            </header>
 
-            <section class="debug first-flex">
-                <div>first section</div>
-            </section>
+    <header class="debug bg-blue cl-white">
+        <div class="container debug">
+            <nav class="navbar">
+
+                <div class="dis-flex center-items padding-150r">
+                    <a href="#" class="logo"> 
+                        <img class="dis-flex justify-center center-items" src="img/logo.svg" alt="DiscordLogo">
+                    </a>
+                </div>
+                <ul class="dis-flex flex-between center-items flexgrow">
+                    <li><a class="cl-white" href="#">Scarica</a></li>
+                    <li><a class="cl-white" href="#">Perchè Discord</a></li>
+                    <li><a class="cl-white" href="#">Nitro</a></li>
+                    <li><a class="cl-white" href="#">Sicurezza</a></li>
+                    <li><a class="cl-white" href="#">Assistenza</a></li>
+                </ul>
+                <div class="dis-flex center-items flex-end padding-150l">
+                    <a href="#" class="bg-white cl-black buttons">Accedi</a>
+                </div>
+    
+            </nav>
         </div>
+
+        <section class="first-section debug">
+            hero
+        </section>
         
-    
+    </header>
+
+    <div class="container debug">
+
         <main class="debug wrapper">
-            <div class="inside-wrapper ">
-                    <section class="debug container">
-                        <div class="debug image">talk</div>
-                        <div class="debug text">image</div>
-                    </section>
+            <section class="debug dis-flex">
+                <div class="debug text">talk</div>
+                <div class="debug image">image</div>
+            </section>
 
-                
-                <section class="debug container">
-                    <div class="debug text">image</div>
-                    <div class="debug image">meet</div>
-                </section>
-    
-                <section class="debug container">
-                    <div class="debug image">community</div>
-                    <div class="debug text">image</div>
-                </section>
-    
-                <section class="debug container">
-                    <div class="debug max-width">technology</div>
-                </section>
-     
-                <section class="debug container">
-                    <div class="debug max-width">call-to-action</div>
-                </section>
-            </div>
 
-            
+            <section class="debug dis-flex row-reverse">
+                <div class="debug text">meet</div>
+                <div class="debug image">image</div>
+            </section>
+
+            <section class="debug dis-flex">
+                <div class="debug text">community</div>
+                <div class="debug image">image</div>
+            </section>
+
+            <section class="debug">
+                <div class="debug">technology</div>
+            </section>
+
+            <section class="debug">
+                <div class="debug">call-to-action</div>
+            </section>
+
         </main>
 
-    
-        <footer class="flex-container">
-                <div class="footer-top">footer top</div>
-                <div class="footer-bottom">footer bottom</div>
-        </footer>
+
     </div>
-    
+
+    <footer class="wrapper debug">
+        <div class="container debug">
+            <div class="footer-top">footer top</div>
+            <div class="footer-bottom">footer bottom</div>
+        </div>
+    </footer>
+
+
+
+
 
 </body>
+
 </html>
